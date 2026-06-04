@@ -6,12 +6,12 @@ This repository contains all raw data and R code necessary to reproduce the anal
 Software Requirements
 Analyses were performed using:
 R version 4.3.3
-RStudio version 2023.06.2†
+RStudio version 2023.06.2¬†
 Required R packages are listed in the code file.
 
 Data Description
 All_files_Metadata.xlsx
-Description: Metadata for all the files. Each tab in this file matches with all filesí names.
+Description: Metadata for all the files. Each tab in this file matches with all files‚Äô names.
 Variables:
 Log_ID: Unique sample identifier.
 Site Study location. Levels:
@@ -25,18 +25,18 @@ CollectionDate Date of sample collection.
 Ilex_Soil_Arthropods.csv
 Description: Raw arthropod count data.
 Berlese_Soil_Weights.csv
-Description: All samplesí weight
+Description: All samples‚Äô weight
 Ilex_traits.csv
-Description: Ilex vomitoriaís morphological traits and soil moisture measures.
+Description: Ilex vomitoria‚Äôs morphological traits and soil moisture measures.
 Fungal_OTUs.csv
 Description: Raw fungal sequencing data.
 Rows: Samples.
-Columns: Fungal OTU or ìtaxonî.
+Columns: Fungal OTU or ‚Äútaxon‚Äù.
 Cell values: Sequence read counts.
 Bacterial_OTUs.csv
 Description: Raw bacterial sequencing data.
 Rows: Samples.
-Columns: Bacterial OTU or ìtaxonî.
+Columns: Bacterial OTU or ‚Äútaxon‚Äù.
 Cell values: Sequence read counts.
 Fungal_taxon.csv
 Description: Taxonomy information for each fungal OTU.
@@ -52,23 +52,24 @@ Description: soil carbon and nitrogen fraction measurements.
 Analysis Workflow
 Open code file: Ilex_v_code.R
 Script should be run in the following order:
-Load all packages needed in R
+1. Load all packages needed in R
 Imports raw datasets.
 Performs data cleaning.
-2.	Diversity analyses
+
+3.	Diversity analyses
 Calculate richness and diversity metrics.
 Generate all figures used in the manuscript.
 
-3.	Community analyses
+4.	Community analyses
 Conducts Bray-Curtis analyses.
 Performs PCoA analyses.
 Performs PERMANOVA analyses.
 Generate all figures used in the manuscript.
 
-4.	Structural Equation modeling analyses
+5.	Structural Equation modeling analyses
 Fits statistical models.
 
-5.	Supplementary Data
+6.	Supplementary Data
 Generate all figures and tables used in the manuscript.
 
 Reproducing the Manuscript
