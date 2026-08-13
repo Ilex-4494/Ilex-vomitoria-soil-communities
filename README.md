@@ -1,6 +1,5 @@
 Data and Code for: The hidden influence of plant sex on belowground biodiversity and food web structure
-Authors
-Alexandra Bradley Martin, Christopher C. Oxley, Kerri M. Crawford, Dajanae A. Williams, Tingfa Dong, Tingfu Zhang, Junyan Liu, Mingsen Qin, Ashley D. Keiser, James H. Leebens-Mack, Tom E.X. Miller, Matthew A. McCary
+
 Repository Overview
 This repository contains all raw data and R code necessary to reproduce the analyses and figures presented in the manuscript.
 Software Requirements
